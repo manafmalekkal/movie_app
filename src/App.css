@@ -1,0 +1,12 @@
+*{
+  margin: 0%;
+  scroll-behavior: smooth;
+  color: #FFFFFF ;
+}
+* ::-webkit-scrollbar{
+  display: none;
+}
+.App{
+  background-color: #000000;
+  font-family: system-ui;
+}

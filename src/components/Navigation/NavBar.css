@@ -1,0 +1,36 @@
+.navBar{
+    background-color: black;
+    height: 65px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+}
+.logoDiv{
+    margin-left: 10px;
+    /* background-color: blanchedalmond; */
+    width: 200px;
+    display: inline;
+}
+.logo{
+    height: 55px;
+    margin-top: 5px;
+    border-radius: 9px;
+
+}
+.navOptions{
+    /* background-color: blue; */
+    width: 500px;
+    height: 65px;
+    display: inline;
+    float: right;
+    padding-right: 20px;
+}
+.searchInput{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 25px;
+    background-color: white;
+}

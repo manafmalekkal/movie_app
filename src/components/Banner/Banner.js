@@ -24,10 +24,10 @@ const Banner = () => {
     return(
         <div className='banner' style={{backgroundImage: `url(${movieList?IMAGE_URL+movieList.backdrop_path:logo})`} }>
             <div className='content'>
-                 <h1 className='title'>{movieList?movieList.title:''}</h1>
+                 <h1 className='title'>{movieList?movieList.title:'title not found'}</h1>
                  <button className='button'>Play</button>
                  <button className='button'>List</button>
-                 <p className='description'>{movieList?movieList.overview:'no description'}</p>
+                 <p className='description'>{movieList?movieList.overview:'no description found'}</p>
             </div>
             <div className='fade'></div>
         </div>

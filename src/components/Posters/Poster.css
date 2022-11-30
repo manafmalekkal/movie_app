@@ -9,6 +9,10 @@
     width: 200px;
     margin-top: 5px;
     margin-left: 10px;
+    cursor: pointer;
+}
+.posterImage:hover{
+    transform: scale(1.1);
 }
 .row{
     height: 300px;

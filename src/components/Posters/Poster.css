@@ -3,21 +3,24 @@
     overflow-x: scroll;
     overflow-y: hidden;
     width: 100vw;
+    height: 250px;
 }
 .posterImage{
-    height: 250px;
-    width: 200px;
-    margin-top: 5px;
-    margin-left: 10px;
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 20px;
     cursor: pointer;
+    transition: 500ms;
+    border-radius: 10px;
 }
 .posterImage:hover{
     transform: scale(1.1);
 }
 .row{
-    height: 300px;
     width: 100%;
     padding-top: 35px;
+    /* padding: 10px; */
 }
 .category{
     margin-left: 10px;

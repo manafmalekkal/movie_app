@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './Banner.css';
 import logo from '../Navigation/movie-app-logo.png';
-import axios from 'axios';
+import instance from "../../api/Link";
 import { API_KEY, IMAGE_URL } from "../../constants/Constants";
 
 const Banner = () => {
@@ -16,8 +16,9 @@ const Banner = () => {
     //    });
     // },[])
     useEffect(()=>{
-        axios.get(`trending/all/week?api_key=${API_KEY}&language=en-US`).then((response)=>{
-            console.log(response.data); 
+        console.log()
+        instance.get(`trending/all/week?api_key=${API_KEY}&language=en-US`).then((response)=>{
+            console.log(response.data.results[0]); 
             setMovieList(response.data.results[0]);
         })
     },[])

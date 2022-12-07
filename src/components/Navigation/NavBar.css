@@ -8,21 +8,17 @@
 .logoDiv{
     margin-left: 10px;
     width: 500px;
-    height: 60px;
+    height: 65px;
     display: inline;
-}
-.logo{
-    height: 55px;
-    margin-top: 5px;
-    border-radius: 9px;
-
+    justify-content: center;
 }
 .navOptions{
-    width: 500px;
+    width: 400px;
     height: 65px;
     display: inline;
     float: right;
-    padding-right: 20px;
+    padding-right: 15px;
+    justify-content: center;
 }
 .searchInput{
     height: 30px;
@@ -30,6 +26,37 @@
     border: none;
     border-radius: 10px;
     margin-right: 5px;
-    margin-top: 25px;
+    margin-top: 17px;
+    background-color: #e4e4e4;
+}
+#searchIcon{
+    color: #e4e4e4;
+    position: absolute;
+    font-size: 22px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#avatar{
+    color: #e4e4e4;
+    font-size: 40px;
+    float: right;
+    margin-top: 13px;
+    cursor: pointer;
+}
+#logo{
+    margin-top: 7px;
+    color: #e4e4e4;
+    cursor: pointer;
+}
+#avatar:hover{
+    color: white;
+}
+#searchIcon:hover{
+    color: white;
+}
+#logo:hover{
+    color: white;
+}
+.searchInput:hover{
     background-color: white;
 }
